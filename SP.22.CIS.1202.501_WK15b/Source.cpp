@@ -10,18 +10,18 @@ using namespace std;
 template <typename T>
 T half (T mush)
 {
-	T round;
-	round = mush / 2;
-	return round; 
+	T stash;
+	stash = mush / 2;
+	return stash; 
 }
 
-template <typename T>
-T half(int mash)
+template <typename int>
+int half(int mash)
 {
-	T round;
-	round = mash / 2;
-	round(static_cast mash < ); 
-	return round;
+	int stash;
+	stash = mash / 2;
+	round(static_cast<int>(stash));
+	return stash;
 
 }
 
