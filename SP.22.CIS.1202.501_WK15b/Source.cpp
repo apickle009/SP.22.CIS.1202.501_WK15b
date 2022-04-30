@@ -19,8 +19,7 @@ template <>
 int half(int mash)
 {
 	int stash;
-	stash = mash / 2;
-	round(static_cast<int>(stash));
+	stash = static_cast<int>(round((float)mash / 2));
 	return stash;
 
 }
