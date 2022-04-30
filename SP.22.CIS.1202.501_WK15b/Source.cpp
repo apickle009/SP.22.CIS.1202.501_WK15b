@@ -15,7 +15,7 @@ T half (T mush)
 	return stash; 
 }
 
-template <typename int>
+template <>
 int half(int mash)
 {
 	int stash;
